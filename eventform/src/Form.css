@@ -1,0 +1,14 @@
+.form {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 150px 1fr;
+}
+
+.form__test {
+    /* height: 189px; */
+    border-color: black;
+}
+
+.form__p {
+    margin: 17px;
+}
