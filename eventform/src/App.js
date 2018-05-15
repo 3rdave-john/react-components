@@ -4,6 +4,7 @@ import "./App.css";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import Header from "./Header";
 import Form from "./Form";
+import DropDownMenu from "./DropDownMenu";
 
 class App extends Component {
   render() {
@@ -15,6 +16,11 @@ class App extends Component {
             SEA Product Marketing Device Loan Request Form
           </h1>
           <Form />
+          <div className="App-body">
+            <DropDownMenu />
+            <DropDownMenu />
+            <DropDownMenu />
+          </div>
         </div>
       </MuiThemeProvider>
     );
